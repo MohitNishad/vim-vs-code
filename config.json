@@ -1,0 +1,80 @@
+{
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.iconTheme": "material-icon-theme",
+  "json.schemas": [],
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.lineHeight": 2.4,
+  "editor.fontSize": 16,
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "'JetBrains Mono', 'monospace', monospace",
+  "vim.smartRelativeLine": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["<Space>", "b", "n"],
+      "commands": [
+        {
+          "command": "workbench.action.nextEditor"
+        }
+      ]
+    },
+    {
+      "before": ["<Space>", "b", "b"],
+      "commands": [
+        {
+          "command": "workbench.action.previousEditor"
+        }
+      ]
+    },
+    {
+      "before": ["<Space>", "c"],
+      "commands": [
+        {
+          "command": "workbench.action.closeActiveEditor"
+        }
+      ]
+    },
+    {
+      "before": ["<Space>", "f"],
+      "commands": [
+        {
+          "command": "editor.action.formatDocument"
+        }
+      ]
+    },
+    {
+      "before": ["<Space>", "e"],
+      "commands": [
+        {
+          "command": "workbench.view.explorer"
+        }
+      ]
+    },
+    {
+      "before": ["<Space>", "x"],
+      "commands": [
+        {
+          "command": "workbench.action.closeSidebar"
+        }
+      ]
+    }
+  ],
+}
+// KEY MAP SETTINGS
+[
+    {
+        "key": "ctrl+j",
+        "command": "selectNextSuggestion",
+        "when": "editorTextFocus && suggestWidgetVisible"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "selectPrevSuggestion",
+        "when": "editorTextFocus && suggestWidgetVisible"
+    }
+
+]
